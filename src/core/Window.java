@@ -32,7 +32,7 @@ public class Window extends Canvas {
 	}
 	
 	private void render(){
-		if (this.bs == null)
+		if (bs == null)
 			createBufferStrategy(3);
 		bs = getBufferStrategy();
 		
